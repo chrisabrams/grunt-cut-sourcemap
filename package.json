@@ -1,0 +1,43 @@
+{
+  "name": "grunt-cut-sourcemap",
+  "description": "Cut source map and move to external file.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/chrisabrams/grunt-cut-sourcemap",
+  "author": {
+    "name": "Chris Abrams",
+    "url": "http://mail@chrisabrams.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chrisabrams/grunt-cut-sourcemap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chrisabrams/grunt-cut-sourcemap/issues"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "files": [
+    "tasks",
+    "LICENSE-MIT"
+  ],
+  "scripts": {
+    "test": "cake unit"
+  },
+  "dependencies": {
+    "chai": "1.8.1",
+    "coffee-script": "1.6.3",
+    "mocha": "1.16.1",
+    "sinon-chai": "2.4.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "files": [
+    "tasks",
+    "LICENSE-MIT"
+  ]
+}
