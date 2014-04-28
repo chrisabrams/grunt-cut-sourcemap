@@ -1,7 +1,7 @@
 {
   "name": "grunt-cut-sourcemap",
   "description": "Cut source map and move to external file.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/chrisabrams/grunt-cut-sourcemap",
   "author": {
     "name": "Chris Abrams",
