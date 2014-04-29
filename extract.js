@@ -28,6 +28,8 @@ module.exports = function(options) {
   map     = src + '.map';
   file    = file.substring(0, file.indexOf('sourceMappingURL=')) + ("sourceMappingURL=" + (path.basename(src)) + ".map\n");
   mapData = '//# sourceMappingURL=data:application/json;base64,' + match[1];
+
+  //console.log("mapData\n", mapData)
   
   json = convert.fromComment(mapData).toJSON();
   json = replaceAll(process.cwd(), '', json);

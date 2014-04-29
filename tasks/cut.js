@@ -1,4 +1,4 @@
-var extractMap = require('../lib/extract');
+var extractMap = require('../extract');
 
 module.exports = function(grunt) {
   
